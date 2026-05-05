@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CertiTrack | Upload Certificate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <img src="BMS College of Engineering (BMSCE), Bangalore logo.jpg" alt="College Logo">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="upload.html">Upload</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+    </ul>
+  </nav>
+
+  <div class="form-container">
+    <h2>Upload Your Certificate</h2>
+
+    <form
+      id="uploadForm"
+      onsubmit="submitDetails(event)"
+      enctype="multipart/form-data"
+    >
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="roll">Roll Number:</label>
+      <input type="text" id="roll" required>
+
+      <label for="event">Event Name:</label>
+      <input type="text" id="event" required>
+
+      <label for="eventDate">Event Date:</label>
+      <input type="date" id="eventDate" required>
+
+      <label>Upload Certificate (PDF only):</label>
+      <input
+       type="file"
+       id="certificate"
+       name="certificate"
+       accept="application/pdf"
+       required
+      >
+
+      <label for="type">Detected Event Type:</label>
+      <input type="text" id="type" readonly>
+
+      <label for="points">Activity Points:</label>
+      <input type="text" id="points" readonly>
+
+      <button type="submit" class="submit-btn">Submit</button>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

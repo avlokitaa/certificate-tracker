@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proctor Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="BMS College of Engineering (BMSCE), Bangalore logo.jpg" alt="College Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="upload.html">Upload</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <div class="form-container">
+        <h2>Proctor Registration</h2>
+
+        <form onsubmit="registerProctor(event)">
+            <label>Full Name</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Employee ID</label>
+            <input type="text" required>
+
+            <label>Password</label>
+            <input type="password" required>
+
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

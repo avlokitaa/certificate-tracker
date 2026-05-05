@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Tracker | Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="BMS College of Engineering (BMSCE), Bangalore logo.jpg" alt="College Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="upload.html">Upload</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+  <section class="dashboard">
+    <h2>Activity Points Dashboard</h2>
+
+    <div class="progress-section">
+      <label>Total Points:</label>
+      <div class="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+      <p id="progress-text">0 / 100 Points</p>
+    </div>
+
+    <table id="recordsTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Roll No</th>
+          <th>Event</th>
+          <th>Date</th> 
+          <th>Type</th>
+          <th>Points</th>
+          <th>Certificate</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
