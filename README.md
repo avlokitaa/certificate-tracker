@@ -1,8 +1,8 @@
 # Certificate Tracker: Automated Portfolio & Activity Point Manager
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Framework](https://img.shields.io/badge/Frontend-Flutter-02569B.svg)](https://flutter.dev/)
-[![Backend](https://img.shields.io/badge/MongoDB-FFCA28.svg)](https://www.mongodb.com/)
+[![Framework](https://img.shields.io/badge/Frontend-CSS-02569B.svg)](https://web.dev/learn/css)
+[![Backend](https://img.shields.io/badge/Backend-MongoDB-FFCA28.svg)](https://www.mongodb.com/)
 
 Certificate Tracker is a cross-platform application designed to digitize, organize, and manage professional and academic credentials. By combining secure cloud storage with automated activity point allocation, the platform provides a unified dashboard for users to track their extracurricular progress and safeguard their achievements.
 
