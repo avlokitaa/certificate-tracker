@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Framework](https://img.shields.io/badge/Frontend-Flutter-02569B.svg)](https://flutter.dev/)
-[![Backend](https://img.shields.io/badge/Backend-Firebase-FFCA28.svg)](https://firebase.google.com/)
+[![Backend](https://img.shields.io/badge/MongoDB-FFCA28.svg)](https://www.mongodb.com/)
 
 Certificate Tracker is a cross-platform application designed to digitize, organize, and manage professional and academic credentials. By combining secure cloud storage with automated activity point allocation, the platform provides a unified dashboard for users to track their extracurricular progress and safeguard their achievements.
 
@@ -24,12 +24,4 @@ Certificate Tracker offers a mobile-first, cloud-backed solution where users can
 * **Automated Activity Point Allocation:** Dynamic calculation of institutional activity points based on uploaded and verified credentials.
 * **Reactive User Dashboard:** Real-time UI updates reflecting new uploads, point accumulations, and categorical breakdowns.
 * **Role-Based Authentication:** Secure login system differentiating between standard users and verification administrators.
-* **Cross-Platform Compatibility:** Built with Flutter to run seamlessly on both Android and iOS devices.
-
----
-
-## Architecture Diagram
-
-```text
-[ Flutter Client App ] ──> [ Firebase Auth ] ──┬──> [ Firebase Storage (Files) ]
-                                               └──> [ Cloud Firestore (Metadata & Points) ] ──> [ UI State Manager ]
+* **Cross-Platform Compatibility:** Built using html, css and javascript can run on any device.
